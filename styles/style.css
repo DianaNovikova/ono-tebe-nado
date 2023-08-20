@@ -260,7 +260,7 @@ flex-shrink: 0;
 display: grid;
 grid-template-columns: 1fr 149px 1fr;
 max-width: 1340px;
-margin: 180px 50px 90px 50px;  
+margin: 180px 50px 90px 50px;
 }
 .footer_addres {
 display: flex;
@@ -269,7 +269,7 @@ font-style: normal;
 color: #000;
 font-size: 18px;
 font-weight: 400;
-line-height: 24.3px;  
+line-height: 24.3px; 
 }
 .footer__menu-list {
 display: flex;
