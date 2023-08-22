@@ -27,6 +27,7 @@ margin-bottom: 45px;
 .header_logo {
 width: 148px;
 height: 105px;
+padding-bottom: 4px;
 }
 .header__links-list {
 display: flex;
@@ -300,8 +301,8 @@ line-height: normal;
 }
 .footer__social-list {
 display: flex;
-justify-content: space-between;
-list-style: none;
+gap: 32px;
+list-style-type: none;
 width: 240px;
 height: 48px;
 margin-left: auto;   
