@@ -25,9 +25,13 @@ margin-top: 43px;
 margin-bottom: 45px;
 }
 .header_logo {
+width: 148px;
+height: 105px;
+display: grid;
+}
+.header__logo-image {
 width: 140px;
-height: 101px;
-margin-bottom: 5px;
+justify-self: center;
 }
 .header__links-list {
 display: flex;
