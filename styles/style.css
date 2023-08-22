@@ -10,11 +10,12 @@ margin: auto;
 }
 .header {
 display: grid;
-grid-template-columns: 1fr 148px 1fr;
+grid-template-columns: 1fr min-content 1fr;
 padding: 92px 49px 92px 51px;
 }
 .header__link {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -41,6 +42,7 @@ display: flex;
 flex-direction: column;
 font-style: normal;
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 24.3px;   
@@ -74,6 +76,7 @@ z-index: 0;
 }
 .cover__title {
 color: #FFF;
+font-family: Raleway, Arial, sans-serif;
 font-size: 100px;
 font-style: normal;
 font-weight: 700;
@@ -112,6 +115,7 @@ z-index: 1;
 .cover__description-text {
 word-spacing: 18px;
 color: #FFF;
+font-family: Raleway, Arial, sans-serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -120,6 +124,7 @@ text-transform: uppercase;
 }
 .bet-button {
 color: #FFF;
+font-family: Raleway, Arial, sans-serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -133,6 +138,7 @@ margin-left: 78px;
 }
 .lots__heading {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -157,6 +163,7 @@ background-image: url(../images/card-lot-03.jpg);
 }
 .card__title {
 color: #FFF;
+font-family: Raleway, Arial, sans-serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
@@ -168,6 +175,7 @@ z-index: 1;
 }
 .card__text {
 color: #FFF;
+font-family: Raleway, Arial, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -210,6 +218,7 @@ padding: 50px 40px;
 }
 .lots__look-more-link {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -226,6 +235,7 @@ column-gap: 25px;
 }
 .about__title {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -236,6 +246,7 @@ margin-top: 100px;
 }
 .about__text {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -265,7 +276,7 @@ display: grid;
 grid-template-columns: 1fr 149px 1fr;
 padding: 0px 50px 90px 50px;
 }
-.footer_addres {
+.footer_address {
 max-width: 240px;
 width: fit-content;
 margin-right: 356px;
@@ -281,13 +292,16 @@ text-decoration: none;
 }
 .footer__menu-link {
 color: #000;
+font-family: Raleway, Arial, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.footer__social-link {
+.footer__social-list {
 display: flex;
+justify-content: space-between;
+list-style: none;
 width: 240px;
 height: 48px;
 margin-left: auto;   
